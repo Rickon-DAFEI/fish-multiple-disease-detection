@@ -1,0 +1,7 @@
+train: C:/Users/10168/ultralytics/dataset/train/images
+val: C:/Users/10168/ultralytics/dataset/valid/images
+test: C:/Users/10168/ultralytics/dataset/test/images
+
+nc: 5
+names: ['Body Worms', 'EUS', 'Eye disease', 'Fin lesions', 'Rotten gills']
+
