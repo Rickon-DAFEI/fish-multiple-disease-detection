@@ -1,7 +1,7 @@
-train: C:/Users/10168/ultralytics/dataset/train/images
-val: C:/Users/10168/ultralytics/dataset/valid/images
-test: C:/Users/10168/ultralytics/dataset/test/images
+train: C:/Users/10168/fish-multiple-disease-detection/dataset/v11/train/images
+val: C:/Users/10168/fish-multiple-disease-detection/dataset/v11/valid/images
+test: C:/Users/10168/fish-multiple-disease-detection/dataset/v11/test/images
 
-nc: 5
-names: ['Body Worms', 'EUS', 'Eye disease', 'Fin lesions', 'Rotten gills']
+nc: 4
+names: ['EUS', 'Eye Disease', 'Fin lesions', 'Rotten gills']
 
