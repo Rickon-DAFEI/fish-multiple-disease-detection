@@ -6,7 +6,7 @@ task: detect  # (str) YOLO task, i.e. detect, segment, classify, pose
 mode: train  # (str) YOLO  mode, i.e. train, val, predict, export, track, benchmark
 
 # Train settings -------------------------------------------------------------------------------------------------------
-model: 'weights/yolov8l.pt' # (str, optional) path to model file, i.e. yolov8n.pt, yolov8n.yaml
+model: 'ultralytics/cfg/yolov8n_p2.yaml' # (str, optional) path to model file, i.e. yolov8n.pt, yolov8n.yaml
 # model: 'multiple fish diseases/train17/weights/best.pt' # (str, optional) path to model file, i.e. yolov8n.pt, yolov8n.yaml
 data: 'data.yaml' # (str, optional) path to data file, i.e. coco128.yaml
 epochs: 300  # (int) number of epochs to train for
